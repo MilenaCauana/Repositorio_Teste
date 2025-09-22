@@ -7,4 +7,9 @@ float mediaPonderada(float n1, int p1, float n2, int p2){
 
 }
 
+//parte da Milena
+float mediaSimples(float nota1, float nota2)
+{
+    return (nota1 + nota2) / 2;
+}
 
