@@ -1,3 +1,5 @@
+#include <stdbool.h>
+
 //Teste de Branch e Merge - Milena e Caio
 
 //parte do Caio
@@ -11,6 +13,17 @@ float mediaPonderada(float n1, int p1, float n2, int p2){
 float mediaSimples(float nota1, float nota2)
 {
     return (nota1 + nota2) / 2;
+}
+
+//função que verifica se foi aprovado
+
+bool aprovado(float media){
+    if(media >= 5){
+        return true;
+    }
+    else{
+        return false;
+    }
 }
 
 //Função que vê se foi aprovada e manda uma mensagem
