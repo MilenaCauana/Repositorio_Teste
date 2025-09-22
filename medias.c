@@ -13,3 +13,19 @@ float mediaSimples(float nota1, float nota2)
     return (nota1 + nota2) / 2;
 }
 
+//Função que vê se foi aprovada e manda uma mensagem
+void mensagemAprovacao(float media)
+{
+    if (aprovado(media))
+    {
+        printf("\nAprovado!");
+        printf("\nAgora eh soh curtir as férias!");
+        return;
+    } else
+    {
+        printf("\nReprovado!");
+        printf("\nAs ferias virao com um peso na consciencia ne?");
+        printf("\nFique de aprendizado para a próxima.");
+    }
+}
+
